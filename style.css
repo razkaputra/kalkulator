@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Paytone One', sans-serif;
+}
+
+body {
+	
+	background: paleturquoise;
+	height: 637px;
+}
+
+.bg {
+	margin: 20px;
+	text-align: center;
+	color: dark;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(142, 146, 146);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+.main h2 {
+	text-align: center;
+	color: dark;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: rgb(216, 203, 203);
+	color: #000;
+	border-radius: 15px;
+	
+}
+
+.btn-green {
+	background:rgb(51, 51, 51);
+	color: azure;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	color: black;
+	border-radius: 15px;
+	text-align: right;
+}
